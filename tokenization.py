@@ -12,3 +12,6 @@ word_tokens = nltk.word_tokenize(text)
 print(word_tokens)
 
 # Cümle tokenizasyonu: sent_tokenize: metni cümlelere ayırır. Her bir cümle bir toke olur.
+# %%
+sentence_tokens = nltk.sent_tokenize(text)
+print(sentence_tokens)
