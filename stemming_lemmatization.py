@@ -1,12 +1,12 @@
 import nltk
-#%% Download data
-nltk.data.path.append(r"C:\nlp_learning\btkAkademiNLP\nltk_data")  # Özel klasör yolu
-#wordnet: lemmatization işlemi için gerekli veritabanı
-nltk.download("wordnet", download_dir=r"C:\nlp_learning\btkAkademiNLP\nltk_data")
 
+#%% Download data
+nltk.data.path.append(r"D:\nlp_learning\btkAkademiNLP\nltk_data")  # Özel klasör yolu
+#wordnet: lemmatization işlemi için gerekli veritabanı
+nltk.download("wordnet", download_dir=r"D:\nlp_learning\btkAkademiNLP\nltk_data")
 
 #%% Stemming
-from nltk.stem import PorterStemmer # Stemming için fonksiyon
+from nltk.stem import PorterStemmer  # Stemming için fonksiyon
 
 # porter stemmer nesnesini oluştur
 stemmer = PorterStemmer()

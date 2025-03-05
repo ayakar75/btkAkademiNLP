@@ -1,8 +1,8 @@
 import nltk  # natural language toolkit
 
-nltk.data.path.append(r"C:\nlp_learning\btkAkademiNLP\nltk_data")  # Özel klasör yolu
-nltk.download("punkt", download_dir=r"C:\nlp_learning\btkAkademiNLP\nltk_data")
-nltk.download("punkt_tab", download_dir=r"C:\nlp_learning\btkAkademiNLP\nltk_data")
+nltk.data.path.append(r"D:\nlp_learning\btkAkademiNLP\nltk_data")  # Özel klasör yolu
+nltk.download("punkt", download_dir=r"D:\nlp_learning\btkAkademiNLP\nltk_data")
+nltk.download("punkt_tab", download_dir=r"D:\nlp_learning\btkAkademiNLP\nltk_data")
 
 text = "Hello, World! How are you? Hello, hi ..."
 

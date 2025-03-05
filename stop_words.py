@@ -2,9 +2,9 @@ import nltk
 
 from nltk.corpus import stopwords
 
-nltk.data.path.append(r"C:\nlp_learning\btkAkademiNLP\nltk_data")  # Özel klasör yolu
+nltk.data.path.append(r"D:\nlp_learning\btkAkademiNLP\nltk_data")  # Özel klasör yolu
 # Farklı dillerde en çok kullanılan stopwords içeren veri seti
-nltk.download("stopwords", download_dir=r"C:\nlp_learning\btkAkademiNLP\nltk_data")
+nltk.download("stopwords", download_dir=r"D:\nlp_learning\btkAkademiNLP\nltk_data")
 
 # İngilizce stop words analizi (with nltk)
 stopwords.words('english')
