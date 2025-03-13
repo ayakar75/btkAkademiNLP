@@ -46,5 +46,5 @@ metin= "Bu bir denemedir. Amacımız bu metinde bulunan özel karaterleri elemek
 filtered_words = [word for word in metin.split() if word.lower() not in tr_stopwords]
 print(f"filtered_words: {filtered_words}")
 filtered_stopwords_tr = set([word.lower() for word in metin.split() if word.lower() in tr_stopwords])
-print(f"filtered_words: {filtered_stopwords_tr}")
+print(f"filtered_words_tr: {filtered_stopwords_tr}")
 
