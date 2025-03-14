@@ -38,8 +38,10 @@ nltk.data.path.append(r"D:\nlp_learning\btkAkademiNLP\nltk_data")
 
 # Stop words listesini yükle
 stop_words = set(stopwords.words('english'))
+print(f"Stop Words: {stop_words}")
 
 
+#%%
 def stop_words_cleaner(text):
     """Metindeki stopwords'leri temizler."""
     # Tokenize et (kelimelere ayır)
@@ -52,9 +54,9 @@ def stop_words_cleaner(text):
 
 
 # Tüm dökümanlar için stopwords temizleme
-filtered_documents = [stop_words_cleaner(doc) for doc in documents]
+filtered_documents = [stop_words_cleaner(doc) for doc in cleaned_doc]
 cleaned_doc = filtered_documents
-print("Filtered documents:", filtered_documents)
+print("Filtered documents:", cleaned_doc)
 
 # %% Bag Of Words
 
